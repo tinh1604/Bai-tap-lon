@@ -630,7 +630,7 @@ a:link {
 /*New 1*/
 p{text-align: justify}
 #cont1 {
-    padding-top: 40px;
+    padding-top: 30px;
     font-family: Baskerville Old Face;
     font-weight: bold;
     font-size: 26px;
@@ -640,6 +640,7 @@ p{text-align: justify}
     font-weight: bold;
     font-style: unset;
     text-decoration:underline;
+    color: black;
 }
 .cont3{
     color: #fb6205;
@@ -662,12 +663,20 @@ p{text-align: justify}
 .cont6{
     font-weight: bold;
     font-style: unset;
+    color: black;
 }
+
 .cont7{
     font-weight: bold;
     font-style: unset;
     display: block;
     text-align: center;
+    color: black;
+}
+.cont8{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: unset;
     color: black;
 }
 .imgnews1{
@@ -679,6 +688,18 @@ p{text-align: justify}
     margin: 15px auto;
     width: 400px;
     height: 300px;
+}
+.imgnews3{
+    display: block;
+    margin: 15px auto;
+    width: 600px;
+    height: auto;
+}
+.imgnews4{
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    height: auto;
 }
 /* Wobble To Top Right */
 @-webkit-keyframes hvr-wobble-to-top-right {
@@ -819,6 +840,13 @@ p{text-align: justify}
         margin: 15px auto;
         width: 300px;
         height: 220px;
+
+    }
+    .imgnews2, .imgnews3{
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+        height: auto;
 
     }
 }
