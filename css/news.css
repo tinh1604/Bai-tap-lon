@@ -59,7 +59,7 @@
     margin-top: 60px;
     padding-left: 25%;
     background: #a56317;
-    background : linear-gradient(to bottom, #a56317, #f5deb3);
+    background : linear-gradient(to bottom, #d38a23, #ecc98f);
 
 }
 
@@ -213,6 +213,25 @@ a:link {
     background: #d79434;
     padding: 5px;
     border-radius: 5px;
+}
+.content18 {
+    background: #ece4d0;
+    display: inline-block;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
+.content18 a{
+    color: grey;
+}
+.content18:hover a{
+    color: white;
+}
+.content18:hover{
+    background: #960b0f;
+
 }
 
 #img2 {
@@ -440,10 +459,6 @@ a:link {
     font-weight: bold;
     font-size: 11px;
 }
-.content10 {
-    display: inline-block;
-    margin-left: 15px;
-}
 
 .img3 {
     width: 92px;
@@ -465,8 +480,16 @@ a:link {
  }
 .img6{
     padding-top: 5px;
-    width: 200px;
+    width: 196px;
     height: 185px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.img7{
+    padding-top: 5px;
+    width: 195px;
+    height: 165px;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
@@ -540,13 +563,14 @@ a:link {
 
 .content10 {
     border-bottom: #d99937 1px solid;
-    font-size: 20px;
-    font-family: "Times New Roman";
+    font-size: 16px;
+    font-family: Arial;
     color: white;
-    width: 180px;
-    background: #763400;
+    width: 220px;
+    background: #950a0f;
     border-radius: 10px;
     text-align: center;
+    padding: 5px 20px;
 
 }
 
@@ -759,8 +783,46 @@ p{text-align: justify}
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
-
-
+/*Món chính*/
+.MagicZoom {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+.MagicZoom{
+    display: inline-block;
+    outline: 0 !important;
+    font-size: 0 !important;
+    line-height: 100% !important;
+    direction: ltr !important;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.content15{
+    background: #c4171d;
+    color: white;
+    text-align: center;
+    display: block;
+    margin:  5px auto;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
+.content15:hover{
+    background: #950a0f;
+}
 
 @media(max-width: 750px){
     #menu2 {
