@@ -494,8 +494,21 @@ a:link {
     margin: 0 auto;
     border-radius: 10px;
 }
+.img9{
+    width: 240px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.img10{
+    width: 450px;
+    height: 350px;
 
 
+    border-radius: 10px;
+}
 #block2 {
     width: 100%;
     background: #f0ddb5;
@@ -566,15 +579,50 @@ a:link {
     font-size: 16px;
     font-family: Arial;
     color: white;
-    width: 220px;
+    width: 210px;
     background: #950a0f;
     border-radius: 10px;
     text-align: center;
     padding: 5px 20px;
 
 }
+.content19 {
+    border-bottom: #d99937 1px solid;
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    width: 140px;
+    background: #950a0f;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
 
-.content11 {
+}
+.content19:hover{
+    color: white;
+    background: #c4171d;
+}
+.content20{
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1;
+
+}
+.content21{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+.content22{
+    font-family: "Times New Roman";
+    color: #950a0f ;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+.content16 {
     color: #a6671a;
     font-size: 11px;
     text-align: justify;
@@ -820,8 +868,27 @@ p{text-align: justify}
     font-family: "Times New Roman";
     font-size: 14px;
 }
+.cont9{
+    background: #c4171d;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin:  5px auto;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+    font-size: 16px;
+}
+.cont9:hover{
+    background: #950a0f;
+
+}
 .content15:hover{
     background: #950a0f;
+}
+#menu6{
+    margin-left: 65%;
 }
 
 @media(max-width: 750px){
@@ -910,5 +977,26 @@ p{text-align: justify}
         width: 100%;
         height: auto;
 
+    }
+    .img5{
+        width: 95%;
+        height: 350px;
+    }
+    .img6{
+        width: 95%;
+        height: 350px;
+    }
+    #img8{
+        width: 95%;
+        height: 200px;
+    }
+    .img9{
+        width: 95%;
+        height: 250px;
+    }
+    #menu6{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
 }
