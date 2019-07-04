@@ -890,7 +890,22 @@ p{text-align: justify}
 #menu6{
     margin-left: 65%;
 }
-
+#img11{
+    width:100%;
+    margin-top: 40px;
+    border: grey 1px solid;
+}
+.contact{
+    width: 100%;
+}
+.submit1{
+    background: #5e3700;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Arial;
+}
 @media(max-width: 750px){
     #menu2 {
        padding-left: 0;
