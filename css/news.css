@@ -21,14 +21,24 @@
 #header {
     margin: 0 auto;
     width: 90%;
-    height: 400px;
+    height: 550px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: url("../imgs/img10.png");
     position: relative;
 
 }
+#header1{
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+   }
+.header2{
+    width: 1300px;
+    height: 550px;
 
+
+}
 #main {
     background: white;
     width: 90%;
@@ -61,6 +71,9 @@
     background: #a56317;
     background : linear-gradient(to bottom, #d38a23, #ecc98f);
 
+}
+#menu4{
+    margin-top: 120px;
 }
 
 #img1 {
@@ -967,7 +980,7 @@ p{text-align: justify}
     margin: 10px;
     padding: 5px;
 }
-@media(max-width: 750px){
+@media(max-width: 550px){
     #menu2 {
        padding-left: 0;
     }
@@ -981,10 +994,13 @@ p{text-align: justify}
         width: 160px;
     }
     #menu3{
+        display: block;
         margin: 0 auto;
+        background: none;
+
     }
     #menu4{
-        margin: 0 auto;
+        display: none;
     }
 
     #content1{
@@ -1009,7 +1025,7 @@ p{text-align: justify}
     .content10{
         text-align: center;
         display: block;
-        margin: 10px auto;
+        margin: 0px auto;
     }
     #img7{
         display: block;
@@ -1039,14 +1055,12 @@ p{text-align: justify}
     #footer{
         padding-left: 1%;
     }
-    #cont1{
-        padding-top: 160px;
-    }
+
     .imgnews1{
         display: block;
         margin: 15px auto;
-        width: 300px;
-        height: 220px;
+        width: 100%;
+        height: auto;
 
     }
     .imgnews2, .imgnews3{
@@ -1074,4 +1088,21 @@ p{text-align: justify}
         margin: 0 auto;
         text-align: center;
     }
+    #header {
+        width: 100%;
+        height: auto;
+    }
+    #block1{
+        width: 100%;
+    }
+    #main{
+        width: 100%
+    }
+    .content19{
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
