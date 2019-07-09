@@ -34,16 +34,15 @@
     width: 90%;
    }
 .header2{
-    width: 1300px;
-    height: 550px;
-
-
+    width: 100%;
+    height: 615px;
 }
 #main {
     background: white;
     width: 90%;
     display: block;
     margin: 0 auto;
+    padding-top: 60px;
     background : linear-gradient(to bottom, #faf4dc, white);
 
 }
@@ -1042,9 +1041,6 @@ p{text-align: justify}
 
     }
 
-    #content8{
-        padding-top: 150px;
-    }
 
     #img8{
         width: 280px;
@@ -1096,13 +1092,23 @@ p{text-align: justify}
         width: 100%;
     }
     #main{
-        width: 100%
+        width: 100%;
+        padding-top: 10px;
+
     }
     .content19{
         margin-top: 30px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .header2{
+        width: 100%;
+        height: auto;
+    }
+    #header1{
+        width: 100%;
+        margin: 0;
     }
 
 }
