@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hủ tiếu Nam Vang khô</title>
+    <title>Mỳ Ý sốt bò băm </title>
     <meta name="viewport" content="width=device-width,
      initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -20,19 +20,21 @@
             <li><a href="DangNhap.html" class="hvr-shrink">Đăng nhập</a></li>
             <li><a href="DangKi.html" class="hvr-shrink">Đăng kí</a></li>
             <li><a href="DonHang.html" class="hvr-shrink">Đơn hàng</a></li>
-            <li><a target="_blank" href="https://www.google.com/maps/place/C%C3%A0+ph%C3%AA+Victoria/@10.8228413,106.4580601,17z/data=!3m1!4b1!4m5!3m4!1s0x310ad41594229c33:0x7ac7ea49fbb02db7!8m2!3d10.8228413!4d106.4602488?hl=vi" class="hvr-shrink">Bản đồ</a></li>
+            <li><a target="_blank"
+                   href="https://www.google.com/maps/place/C%C3%A0+ph%C3%AA+Victoria/@10.8228413,106.4580601,17z/data=!3m1!4b1!4m5!3m4!1s0x310ad41594229c33:0x7ac7ea49fbb02db7!8m2!3d10.8228413!4d106.4602488?hl=vi"
+                   class="hvr-shrink">Bản đồ</a></li>
         </ul>
 
         <img id="img1" src="imgs/logo3.jpg"/>
         <ul id="menu2">
             <li><a href="TrangChu.html" class="hvr-float-shadow">Trang chủ</a></li>
             <li><a href="GioiThieu.html" class="hvr-float-shadow">Giới thiệu</a></li>
-            <li id="menu5" onclick="myfunction()"><a class="hvr-float-shadow">Thực đơn  <i class="fas fa-sort-down"> </i></a>
+            <li id="menu5" onclick="myfunction()"><a class="hvr-float-shadow">Thực đơn <i class="fas fa-sort-down"> </i></a>
                 <ul id="submenu">
-                    <li> <a href="DoAnSang.html">Điểm tâm sáng</a> </li>
-                    <li> <a href="DoAnChinh.html">Món chính</a> </li>
-                    <li> <a href="ThucUong.html">Thức uống</a> </li>
-                    <li> <a href="Ruou.html">Rượu</a> </li>
+                    <li><a href="DoAnSang.html">Điểm tâm sáng</a></li>
+                    <li><a href="DoAnChinh.html">Món chính</a></li>
+                    <li><a href="ThucUong.html">Thức uống</a></li>
+                    <li><a href="Ruou.html">Rượu</a></li>
                 </ul>
             </li>
             <li><a href="DichVu.html" class="hvr-float-shadow">Dịch vụ</a></li>
@@ -64,24 +66,30 @@
                 <div class="col-md-10 col-12">
                     <div style="padding-top: 20px" id="main2">
 
-                        <a href="DoAnChinh.html" class="content19">MÓN CHÍNH</a> <br/> <br/>
+                        <a href="DoAnSang.html" class="content19">ĐIỂM TÂM SÁNG</a> <br/> <br/>
                         <div class="container">
                             <div class="row">
-                            <div class="col-md-6 col-12">
-                                <img class="img10 hvr-grow"  src="imgs/DoAnSang/hu-tieu-kho-1501063365.jpg" />
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <h3 style="font-family: 'Times New Roman'; font-weight: bold">Hủ tiếu Nam Vang khô</h3>
-                                <p class="content20">
-                                    Cambodia style rice vermicelli with pork,shrimp,pork-liver & quail egg (mixed)
-                                </p>
-                                <p class="content21">Giá : <span class="content22">65.000 VNĐ</span></p>
-                                <input type="number" name="dathang" value="1" style="width: 80px; text-align: center">
-                                <a href="" ><button class="cont9"><i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng</button></a> <br/><br/>
-                                <p style="font-family: 'Times New Roman'; font-size: 16px; text-decoration: underline; font-weight: bold">Miêu tả:</p>
-                                <p style="font-family: 'Times New Roman'; font-size: 16px">
-                                    Cũng là các nguyên liệu giống như một bát Hủ tiếu Nam Vang chan nước lèo, hủ tiếu Nam Vang khô để nguyên các nguyên liệu vô bát và bên cạnh đặt một bát nước dùng riêng cho người nào không thích chan nước. Khi ăn trộn đều. Thi thoảng hơi ngán có thể nhấp một vài thìa nước dùng để sẵn ngoài bát riêng có thả vài lát hành lá.
-                            </div>
+                                <div class="col-md-6 col-12">
+                                    <img class="img10 hvr-grow" src="imgs/DoAnSang/my-y-sot-bo-bam-don-gian-ma-ngon_2.jpg"/>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <h3 style="font-family: 'Times New Roman'; font-weight: bold">Mỳ Ý sốt bò băm</h3>
+                                    <p class="content20">
+                                        Spaghetti
+                                    </p>
+                                    <p class="content21">Giá : <span class="content22">65.000 VNĐ</span></p>
+                                    <input type="number" name="dathang" value="1"
+                                           style="width: 80px; text-align: center">
+                                    <a href="">
+                                        <button class="cont9"><i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+                                        </button>
+                                    </a> <br/><br/>
+                                    <p style="font-family: 'Times New Roman'; font-size: 16px; text-decoration: underline; font-weight: bold">
+                                        Miêu tả:</p>
+                                    <p style="font-family: 'Times New Roman'; font-size: 16px">
+                                        Mì Ý sốt bò băm hay còn gọi là Spaghetti là món ăn ngon và phổ biến, dùng kèm với hỗn hợp sốt cà chua và thịt bò bằm có nguồn gốc từ Italia. Đây là món ăn bổ dưỡng và nhiều năng lượng mà bạn có thể dùng vào buổi sáng.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
@@ -138,35 +146,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-12">
-                <div class="block7" class="row" >
-                    <a href ="Hutieunamvang.html" class="hvr-grow">  <img class="img7" src="imgs/Doansang/hu-tieu-nam-vang-2-1501063325.jpg"/> </a>
-                    <a class="content12" href="Hutieunamvang.html">Hủ tiếu Nam Vang</a>
-                    <p class="content14" >Giá: 65.000 VNĐ</p>
-                    <a href="Hutieunamvang.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
-                </div>
-            </div><br/>
-            <div class="col-md-3 col-12">
-                <div class="block8" class="row" >
-                    <a href ="mienmangga.html" class="hvr-grow">  <img class="img7" src="imgs/Doansang/mien-mang-ga-1496717069.jpg"/> </a>
-                    <a class="content12" href="mienmangga.html">Miến măng gà</a>
-                    <p class="content14" >Giá: 55.000 VNĐ</p>
-                    <a href="mienmangga.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
-                </div>
-            </div><br/>
-            <div class="col-md-3 col-12">
-                <div class="block9" class="row" >
-                    <a href ="mixaxiu.html" class="hvr-grow">   <img class="img7" src="imgs/Doansang/mixaxiu.jpg"/> </a>
-                    <a class="content12" href="mixaxiu.html">Mì xá xíu</a>
+                <div class="block6" class="row" >
+                    <a href ="Mivanthan.html" class="hvr-grow"> <img class="img7" src="imgs/Doansang/my-van-than-quan-an-ngon-1497429996.jpg"/> </a>
+                    <a class="content12" href="Mivanthan.html">Mỳ vằn thắn</a>
                     <p class="content14" >Giá: 60.000 VNĐ</p>
-                    <a href="mixaxiu.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
+                    <a href="Mivanthan.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
                 </div>
-            </div><br/>
+            </div> <br/>
+            <div class="col-md-3 col-12">
+                <div class="block6" class="row" >
+                    <a href ="phoga.html" class="hvr-grow"> <img class="img7" src="imgs/Doansang/pho-ga-quan-an-ngon-1498552042.jpg"/> </a>
+                    <a class="content12" href="phoga.html">Phở gà</a>
+                    <p class="content14" >Giá: 50.000 VNĐ</p>
+                    <a href="phoga.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
+                </div>
+            </div> <br/>
             <div class="col-md-3 col-12">
                 <div class="block6" class="row" >
                     <a href ="Mivanthan.html" class="hvr-grow"> <img class="img7" src="imgs/Doansang/my-van-than-quan-an-ngon-1497429996.jpg"/> </a>
                     <a class="content12" href="Mivanthan.html">Mỳ vằn thắn</a>
                     <p class="content14" >Giá: 60.000 VNĐ</p>
                     <a href="Mivanthan.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
+                </div>
+            </div> <br/>
+            <div class="col-md-3 col-12">
+                <div class="block6" class="row" >
+                    <a href ="phoga.html" class="hvr-grow"> <img class="img7" src="imgs/Doansang/pho-ga-quan-an-ngon-1498552042.jpg"/> </a>
+                    <a class="content12" href="phoga.html">Phở gà</a>
+                    <p class="content14" >Giá: 50.000 VNĐ</p>
+                    <a href="phoga.html"><button class="content15"><i class="fas fa-utensils"></i> Chọn món</button></a>
                 </div>
             </div> <br/>
         </div>
@@ -182,17 +190,20 @@
                 </div>
                 <div class="col-md-5 col-12">
                     <p class="content13"> VICTORIA COFFEE </p>
-                    <p class="content13"> <i class="fas fa-map-marker-alt"></i> 108 Đường 14, KĐT Himlam, Quận Tây Hồ, TP Hà Nội. </p>
+                    <p class="content13"><i class="fas fa-map-marker-alt"></i> 108 Đường 14, KĐT Himlam, Quận Tây Hồ, TP
+                        Hà Nội. </p>
                     <p class="content13"><i class="fas fa-phone-volume"></i> 024.888.6886. </p>
                     <p class="content13"><i class="fas fa-envelope"></i> Victoria@gmail.com </p>
-                    <a id="linkweb" class="content13" href=""><i class="fas fa-globe"></i> Http://Victoriacoffee.vn </a> </div>
+                    <a id="linkweb" class="content13" href=""><i class="fas fa-globe"></i> Http://Victoriacoffee.vn </a>
+                </div>
 
                 <div class="col-md-5 col-12">
-                   <a href="https://www.google.com/maps/place/C%C3%A0+ph%C3%AA+Victoria/@10.8228413,106.4580601,17z/data=!3m1!4b1!4m5!3m4!1s0x310ad41594229c33:0x7ac7ea49fbb02db7!8m2!3d10.8228413!4d106.4602488?hl=vi">
-                       <img id="img8" width="400px" height="200px" src="imgs/bando.png"></a>
+                    <a href="https://www.google.com/maps/place/C%C3%A0+ph%C3%AA+Victoria/@10.8228413,106.4580601,17z/data=!3m1!4b1!4m5!3m4!1s0x310ad41594229c33:0x7ac7ea49fbb02db7!8m2!3d10.8228413!4d106.4602488?hl=vi">
+                        <img id="img8" width="400px" height="200px" src="imgs/bando.png"></a>
                 </div>
             </div>
-        </div> <br/>
+        </div>
+        <br/>
 
     </div>
 
