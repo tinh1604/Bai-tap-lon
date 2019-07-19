@@ -94,7 +94,7 @@
     color: white;
     padding-left: 5px;
     background: none;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .group1:hover {
@@ -276,7 +276,7 @@ a:link {
 
 #content5 li {
     border-radius: 20px;
-    width: 150px;
+    width: 140px;
     background: none;
     margin: 0px auto;
 }
@@ -479,7 +479,7 @@ a:link {
     height: 45px;
 }
 .img5{
-     width: 190px;
+     width: 185px;
      height: 212px;
     display: block;
     margin: 0 auto;
@@ -488,7 +488,7 @@ a:link {
  }
 .img6{
     padding-top: 5px;
-    width: 196px;
+    width: 185px;
     height: 185px;
     display: block;
     margin: 0 auto;
